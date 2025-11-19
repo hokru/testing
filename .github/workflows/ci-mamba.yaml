@@ -28,10 +28,8 @@ jobs:
 
       - name: summary
         run: |
-	touch test.dat
-	echo """ ARG   0.044   0.007   ARG A 106
- TYR   0.023   0.008   TYR B  73
- PHE   0.046   0.014   PHE A  93
- TRP   0.071   0.018   TRP B  70
- HIS   0.005   0.002   HIS A  45"""  >> $GITHUB_STEP_SUMMARY
+         echo """ ARG   0.044   0.007   ARG A 106
+                 TYR   0.023   0.008   TYR B  73
+                 PHE   0.046   0.014   PHE A  93
+              """  >> $GITHUB_STEP_SUMMARY
 
